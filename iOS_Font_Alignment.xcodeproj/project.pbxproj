@@ -15,6 +15,9 @@
 		CE43A1D320A9772C00F17416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A1D220A9772C00F17416 /* main.m */; };
 		CE43A1DD20A9772C00F17416 /* iOS_Font_AlignmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A1DC20A9772C00F17416 /* iOS_Font_AlignmentTests.m */; };
 		CE43A1E820A9772C00F17416 /* iOS_Font_AlignmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A1E720A9772C00F17416 /* iOS_Font_AlignmentUITests.m */; };
+		CE43A1F720A9775E00F17416 /* VerticallyAlignedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CE43A1F520A9775D00F17416 /* VerticallyAlignedLabel.m */; };
+		CE43A1F920A9776F00F17416 /* 微软雅黑+Arial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CE43A1F820A9776F00F17416 /* 微软雅黑+Arial.ttf */; };
+		CE43A1FB20A9777A00F17416 /* PingFang.ttc in Resources */ = {isa = PBXBuildFile; fileRef = CE43A1FA20A9777A00F17416 /* PingFang.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		CE43A1E320A9772C00F17416 /* iOS_Font_AlignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Font_AlignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE43A1E720A9772C00F17416 /* iOS_Font_AlignmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_Font_AlignmentUITests.m; sourceTree = "<group>"; };
 		CE43A1E920A9772C00F17416 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE43A1F520A9775D00F17416 /* VerticallyAlignedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticallyAlignedLabel.m; sourceTree = "<group>"; };
+		CE43A1F620A9775E00F17416 /* VerticallyAlignedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticallyAlignedLabel.h; sourceTree = "<group>"; };
+		CE43A1F820A9776F00F17416 /* 微软雅黑+Arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "微软雅黑+Arial.ttf"; sourceTree = "<group>"; };
+		CE43A1FA20A9777A00F17416 /* PingFang.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = PingFang.ttc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,10 @@
 				CE43A1C420A9772B00F17416 /* AppDelegate.m */,
 				CE43A1C620A9772B00F17416 /* ViewController.h */,
 				CE43A1C720A9772B00F17416 /* ViewController.m */,
+				CE43A1F620A9775E00F17416 /* VerticallyAlignedLabel.h */,
+				CE43A1F520A9775D00F17416 /* VerticallyAlignedLabel.m */,
+				CE43A1F820A9776F00F17416 /* 微软雅黑+Arial.ttf */,
+				CE43A1FA20A9777A00F17416 /* PingFang.ttc */,
 				CE43A1C920A9772B00F17416 /* Main.storyboard */,
 				CE43A1CC20A9772C00F17416 /* Assets.xcassets */,
 				CE43A1CE20A9772C00F17416 /* LaunchScreen.storyboard */,
@@ -236,6 +247,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE43A1D020A9772C00F17416 /* LaunchScreen.storyboard in Resources */,
+				CE43A1FB20A9777A00F17416 /* PingFang.ttc in Resources */,
+				CE43A1F920A9776F00F17416 /* 微软雅黑+Arial.ttf in Resources */,
 				CE43A1CD20A9772C00F17416 /* Assets.xcassets in Resources */,
 				CE43A1CB20A9772B00F17416 /* Main.storyboard in Resources */,
 			);
@@ -264,6 +277,7 @@
 			files = (
 				CE43A1C820A9772B00F17416 /* ViewController.m in Sources */,
 				CE43A1D320A9772C00F17416 /* main.m in Sources */,
+				CE43A1F720A9775E00F17416 /* VerticallyAlignedLabel.m in Sources */,
 				CE43A1C520A9772B00F17416 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
